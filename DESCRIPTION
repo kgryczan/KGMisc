@@ -1,0 +1,22 @@
+Package: KGMisc
+Title: Miscelanous
+Version: 0.0.1.0000
+Authors@R: 
+    person(given = "Konrad",
+           family = "Gryczan",
+           email = "kgryczan@gmail.com",
+           role = c("aut", "cre"))
+Description: Misc.
+License: GPL-2
+Encoding: UTF-8
+Imports: rlang, openxlsx, assertthat
+Depends: 
+    dplyr,
+    magrittr,
+    stringr,
+    odbc,
+    tidyr
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
