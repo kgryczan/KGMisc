@@ -13,6 +13,9 @@
 #' @export
 #'
 #' @examples
+#' slice_df_by_nrow(df, nrows = 190, to_file = "no", v_name = "test")
+#'
+#'
 slice_df_by_nrow = function(df, nrows = 100, to_file = "no", v_name = NULL) {
   #Check if inputs are valid
   avail_file_types = c("no", "csv", "xlsx")
